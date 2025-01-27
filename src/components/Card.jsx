@@ -73,7 +73,7 @@ const Card = ({ card }) => {
       }`}
       onClick={handleClick}
     >
-      {title}
+      {title.length < 20 ? title : title.substring(0, 17) + "..."}
     </div>
   );
 };

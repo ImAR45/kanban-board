@@ -23,7 +23,7 @@ const ListCardView = ({ id, title }) => {
         activeCard && "bg-gray-300"
       }`}
     >
-      {title}
+      {title.length < 20 ? title : title.substring(0, 17) + "..."}
     </p>
   );
 };

@@ -35,6 +35,7 @@ const BoardProvider = ({ children }) => {
       ...board.columns[0].cards.push({
         id: "id-" + Math.floor(Math.random() * length * 1000),
         title: title,
+        description: "",
         position: length + 1,
         columnId: "todo",
       }),
@@ -52,10 +53,22 @@ const BoardProvider = ({ children }) => {
     });
   };
 
-  const updateTaskTitle = (id, title) {
-    console.log(board.columns.map(col => col.cards).find());
-    
-  }
+  const updateTaskTitle = (id, title) => {
+    const updatedCard = board.columns
+      .map((col) => col.cards)
+      .flat()
+      .find((card) => card.id === id);
+    updatedCard.title = title;
+  };
+
+  const updateTaskDescription = (id, description) => {
+    const updatedCard = board.columns
+      .map((col) => col.cards)
+      .flat()
+      .find((card) => card.id === id);
+    updatedCard.description = description;
+  };
+
   const moveCard = useCallback(
     (cardId, targetColumnId, targetPosition) => {
       setBoard((prevBoard) => {
@@ -139,6 +152,8 @@ const BoardProvider = ({ children }) => {
         getCardDetails,
         deleteTask,
         getAllCards,
+        updateTaskTitle,
+        updateTaskDescription,
       }}
     >
       {children}

@@ -10,21 +10,21 @@
           "title": "Buy some milk",
           "position": 1,
           "columnId": "todo",
-          "description": "Buy kajskd Kjksad Jnkasd KJks jlaohrh Ugfw elcjb jnk"
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet orci posuere, dictum dolor eget, iaculis orci. Cras malesuada eros eget nibh ornare dapibus. Donec placerat odio nec ullamcorper aliquet. Pellentesque tempor imperdiet arcu, vel ultrices lacus. Praesent pulvinar lobortis velit, ac imperdiet leo consectetur non. Integer blandit, elit vel ornare venenatis, ligula turpis accumsan leo, et eleifend diam orci eu arcu. Ut ac malesuada risus. In maximus metus tortor, vel hendrerit enim tempus non. Donec volutpat, arcu at malesuada scelerisque, ipsum lectus tincidunt odio, quis finibus libero lorem eget nisl. Donec egestas libero eget sapien tincidunt, a tincidunt felis facilisis. Praesent bibendum quis lorem nec sollicitudin."
         },
         {
           "id": "id-2",
           "title": "Write some CSS",
           "position": 2,
           "columnId": "todo",
-          "description": ""
+          "description": "Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam mollis ligula in nibh molestie, in consequat purus viverra. Nullam tincidunt dolor ac dictum dictum. Nulla eget dui blandit, placerat odio sed, auctor massa. Morbi accumsan, velit in vehicula vulputate, magna neque luctus ligula, ac egestas quam nulla vel augue. Vivamus nisl felis, malesuada id tellus ac, aliquet iaculis lorem. Quisque laoreet mauris volutpat odio vulputate fermentum."
         },
         {
           "id": "id-3",
           "title": "Learn skipping",
           "position": 3,
           "columnId": "todo",
-          "description": ""
+          "description": "Vestibulum lectus odio, rutrum ut enim non, dictum eleifend justo. Sed ut elit vitae augue fermentum suscipit ut vitae est. Suspendisse sed orci quis lacus volutpat commodo eget vel risus. Sed mattis elementum ultrices. Mauris maximus lorem at pellentesque tincidunt. Aliquam eget gravida orci. Quisque nec enim lacinia orci mollis bibendum. Pellentesque id mattis lacus. Aliquam erat volutpat. Ut id ante vehicula, bibendum eros ut, commodo eros."
         }
       ]
     },
@@ -37,7 +37,7 @@
           "title": "Make a video",
           "position": 1,
           "columnId": "in-progress",
-          "description": ""
+          "description": "Aenean volutpat, tortor nec feugiat porttitor, ante quam porta est, nec hendrerit dolor tellus vitae turpis. Cras commodo nibh a nunc facilisis dignissim. Fusce in justo finibus, lacinia turpis a, varius ipsum. Donec eget fringilla purus, eget eleifend est. Nulla sit amet posuere neque. Suspendisse potenti. Aliquam erat volutpat. Fusce lobortis tempor lacus id sagittis. Suspendisse sit amet libero enim. Aenean iaculis leo non mauris gravida, ac molestie ligula dictum. Etiam scelerisque efficitur scelerisque. In sagittis fermentum iaculis. Morbi non velit tincidunt arcu sagittis egestas. Morbi tortor sem, auctor quis nunc ac, tincidunt euismod ante. Curabitur et luctus mi, in facilisis nisi. Pellentesque tempor lacinia justo eget mollis."
         }
       ]
     },
